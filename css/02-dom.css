@@ -1,0 +1,119 @@
+
+body {
+    background: #FFF;
+}
+
+body * {
+    font-family: monospace;
+    list-style: none;
+    background: #FFF;
+    border-radius: 2px;
+    border: 1px solid #AAA;
+    padding: 20px 5px 10px 20px;
+    margin: 5px;
+    position: relative;
+}
+
+body *:before {
+    padding: 2px 5px;
+    content: "ele";
+    font-size: 8px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+p {
+    display: block;
+}
+
+span {
+    display: inline-block;
+}
+
+a {
+    background: none;
+    border: none;
+    color: #304FFE;
+}
+
+a:before {
+    display: none;
+}
+
+button {
+    padding: 5px;
+    color: #FFF;
+    background: #304FFE;
+    border: 1px solid #304FFE;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:before {
+    display: none;
+}
+
+div {
+    background: #A5D6A7;
+    border-color: #4CAF50;
+}
+
+div:before {
+    content: "div";
+    color: #A5D6A7;
+    background: #4CAF50;
+}
+
+span {
+    background: #FFF176;
+    border-color: #FBC02D;
+}
+
+span:before {
+    content: "span";
+    color: #FFF176;
+    background: #FBC02D;
+}
+
+ul {
+    background: #64B5F6;
+    border-color: #1E88E5;
+}
+
+ul:before {
+    content: "ul";
+    color: #64B5F6;
+    background: #1E88E5;
+}
+
+li {
+    background: #90CAF9;
+    border-color: #2196F3;
+}
+
+li:before {
+    content: "li";
+    color: #90CAF9;
+    background: #2196F3;
+}
+
+p {
+    background: #F48FB1;
+    border-color: #F06292;
+}
+
+p:before {
+    content: "p";
+    color: #F48FB1;
+    background: #F06292;
+}
+
+.mark {
+    border: 4px solid #F00;
+}
+
+.mark:before {
+    color: #FFF;
+    background: #F00;
+}
